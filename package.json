@@ -1,0 +1,32 @@
+{
+    "name": "nuxt-storybook",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "storybook": "storybook dev --port 6006",
+        "build-storybook": "storybook build"
+    },
+    "devDependencies": {
+        "@nuxtjs/eslint-config-typescript": "12.1.0",
+        "@nuxtjs/storybook": "8.3.3",
+        "@storybook-vue/nuxt": "8.3.3",
+        "@storybook/addon-essentials": "8.4.7",
+        "@storybook/builder-vite": "8.4.7",
+        "eslint": "8.57.1",
+        "eslint-config-prettier": "9.1.0",
+        "eslint-plugin-prettier": "5.2.3",
+        "nuxt": "3.15.0",
+        "prettier": "3.5.3",
+        "prettier-plugin-tailwindcss": "0.6.11",
+        "sass": "1.78.0",
+        "storybook": "8.6.3"
+    },
+    "dependencies": {
+        "@nuxtjs/tailwindcss": "6.13.1"
+    }
+}

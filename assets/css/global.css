@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .custom-anchor {
+        @apply cursor-pointer font-sans font-normal tracking-tight text-primary underline hover:no-underline;
+    }
+}
